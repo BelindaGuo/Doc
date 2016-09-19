@@ -64,3 +64,8 @@ __编辑文件 __
 	
 	vi 文件名
 	vim 文件
+
+** 域名解析查询 dig **
+
+	dig www.baidu.com
+	类似命令 nslookup
