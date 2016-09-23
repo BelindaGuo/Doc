@@ -34,6 +34,12 @@ __强制删除 不询问__
 ** 退到上一次打开的目录 **
 	
 	cd - 
+
+** 回到主目录 **
+
+	
+	cd           #回到主目录
+    cd ~         #同样也是回到主目录
 __清除屏幕log信息 __
 	
 	clear
@@ -69,3 +75,24 @@ __编辑文件 __
 
 	dig www.baidu.com
 	类似命令 nslookup
+	
+** 只读文件的修改 **
+
+	su
+	chmod 777 /etc/profile
+	wq!
+** 查看 文件权限 **
+   ls -l
+** 查看隐藏文件 **
+   ls -a
+** source命令：** 
+source命令也称为“点命令”，也就是一个点符号（.）。source命令通常用于重新执行刚修改的初始化文件，使之立即生效，而不必注销并重新登录。
+用法： 
+	source filename 
+    . filename
+    
+** grep **
+  
+** more **
+
+** top **
